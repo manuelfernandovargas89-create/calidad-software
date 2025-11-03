@@ -1,13 +1,118 @@
+/* 🎨 ESTILO GLOBAL */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1950&q=80");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #222;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* 🔹 Fondo semitransparente del contenido */
+.contenido {
+  background-color: rgba(255, 255, 255, 0.88);
+  margin: 40px auto;
+  padding: 30px;
+  max-width: 900px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* 🔸 Encabezados */
+h1, h2, h3 {
+  color: #003366;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* 🔹 Menú principal */
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #004080;
+  padding: 14px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.menu a:hover {
+  background-color: #0073e6;
+  transform: scale(1.05);
+}
+
+/* 🔹 Tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #004080;
+  color: #fff;
+}
+
+input[type="number"] {
+  width: 80px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* 🔹 Listas */
+ul {
+  list-style: square;
+  padding-left: 40px;
+}
+
+/* 🔹 Imágenes */
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 90%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 🔹 Código */
+pre {
+  background-color: #f5f7fa;
+  padding: 14px;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-family: "Consolas", monospace;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* 🌟 Responsivo */
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+  }
+  .contenido {
+    margin: 20px;
+    padding: 20px;
+  }
 }
