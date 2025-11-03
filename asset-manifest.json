@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/calidad-software/static/css/main.bc6f878c.css",
-    "main.js": "/calidad-software/static/js/main.1384e3f2.js",
+    "main.js": "/calidad-software/static/js/main.86322dd2.js",
     "static/js/488.cac1d14c.chunk.js": "/calidad-software/static/js/488.cac1d14c.chunk.js",
     "index.html": "/calidad-software/index.html",
     "main.bc6f878c.css.map": "/calidad-software/static/css/main.bc6f878c.css.map",
-    "main.1384e3f2.js.map": "/calidad-software/static/js/main.1384e3f2.js.map",
+    "main.86322dd2.js.map": "/calidad-software/static/js/main.86322dd2.js.map",
     "488.cac1d14c.chunk.js.map": "/calidad-software/static/js/488.cac1d14c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc6f878c.css",
-    "static/js/main.1384e3f2.js"
+    "static/js/main.86322dd2.js"
   ]
 }
